@@ -3,7 +3,8 @@ package com.db.logs.Logs.model;
 import jakarta.persistence.*;
 import lombok.Data;
 
-@Table(name = "requester")
+@Table
+@Entity(name = "requester")
 @Data
 public class Requester {
 

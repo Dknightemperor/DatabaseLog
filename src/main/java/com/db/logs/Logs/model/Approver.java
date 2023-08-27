@@ -4,7 +4,8 @@ import jakarta.persistence.*;
 import lombok.Data;
 import lombok.Generated;
 
-@Table(name = "approver")
+@Table
+@Entity(name = "approver")
 @Data
 public class Approver {
 
